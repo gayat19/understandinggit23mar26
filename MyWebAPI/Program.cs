@@ -32,6 +32,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+Console.WriteLine("New change");
 
 app.Run();
 
